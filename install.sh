@@ -10,12 +10,12 @@ NC='\033[0m'
 # Display welcome message
 display_welcome() {
   echo -e ""
-  echo -e "${YELLOW}[+] =============================================== [+]${NC}"
+  echo -e "${YELLOW}[+] =========================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © LUXZ-OFFICIAL               [+]${NC}"
+  echo -e "${BLUE}[+]                  © LUXZ-OFFICIAL                [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
-  echo -e "${YELLOW}[+] =============================================== [+]${NC}"
+  echo -e "${YELLOW}[+] =========================================== [+]${NC}"
   echo -e ""
   echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyle,"
   echo -e "Dilarang Keras Share Bebas."
