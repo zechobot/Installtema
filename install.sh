@@ -9,11 +9,11 @@ NC='\033[0m'
 
 # Display welcome message
 display_welcome() {
- echo -e ""
+  echo -e ""
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © LUXZ-OFFCIAL                 [+]${NC}"
+  echo -e "${BLUE}[+]                  © LUXZ-OFFC                [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -27,6 +27,7 @@ display_welcome() {
   sleep 4
   clear
 }
+
 #Update and install jq
 install_jq() {
   echo -e "                                                       "
@@ -55,7 +56,7 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY LUXZ-OFFICIAL           [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY LUXZ - OFFICIAL           [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
@@ -64,11 +65,11 @@ check_token() {
   if [ "$USER_TOKEN" = "luxzhensem" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Token Salah! Beli Kode Token Di Luxz-Offc${NC}"
+    echo -e "${GREEN}Token Salah! Beli Kode Token Di Di Luxz - Official${NC}"
     echo -e "${YELLOW}TELEGRAM : @Luxz_Pemula2${NC}"
     echo -e "${YELLOW}WHATSAPP : +6283131164107${NC}"
     echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}© Luxz-Official${NC}"
+    echo -e "${YELLOW}© Luxz - Official${NC}"
     exit 1
   fi
   clear
@@ -225,7 +226,7 @@ uninstall_theme() {
   echo -e "${BLUE}[+]                    DELETE THEME                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/LuxzHost/installer-theme/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/VallzHost/installer-theme/main/repair.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 DELETE THEME SUKSES             [+]${NC}"
@@ -452,11 +453,11 @@ while true; do
   echo -e "${RED}  ,ggggg        gggggggg.                                 ${NC}"
   echo -e "${RED} ,ggg'               'ggg.                                ${NC}"
   echo -e "${RED}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer Luxz-Official   ${NC}"
+  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer Luxz - Official   ${NC}"
   echo -e "${RED}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : Luxz_Pemula2      ${NC}"
-  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : Luxz-Official ${NC}"
-  echo -e "${RED} ggg.    '.'''ggggggp           • Support by Luxz-Official ${NC}"
+  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : Luxz - Official     ${NC}"
+  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : Luxz - Official ${NC}"
+  echo -e "${RED} ggg.    '.'''ggggggp           • Support by Luxz - Official ${NC}"
   echo -e "${RED}  'ggg    '-.__                                           ${NC}"
   echo -e "${RED}    ggg                                                   ${NC}"
   echo -e "${RED}      ggg                                                 ${NC}"
