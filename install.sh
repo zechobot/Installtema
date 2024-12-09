@@ -8,11 +8,13 @@ YELLOW='\033[0;33m'
 NC='\033[0m'
 
 # Display welcome message
-display_welcome() {echo -e "${BLUE}[+] =========================================== [+]${NC}"
-  echo -e "${BLUE}[+]                                               [+]${NC}"
-  echo -e "${BLUE}[+]                AUTO INSTALLER THEMA         [+]${NC}"
-  echo -e "${BLUE}[+]                  © LUXZ-OFFICIAL            [+]${NC}"
-  echo -e "${BLUE}[+]                                              [+]${NC}"
+display_welcome() {
+  echo -e ""
+  echo -e "${BLUE}[+] =========================================== [+]${NC}"
+  echo -e "${BLUE}[+]                                                         [+]${NC}"
+  echo -e "${BLUE}[+]                AUTO INSTALLER THEMA               [+]${NC}"
+  echo -e "${BLUE}[+]                  © LUXZ-OFFICIAL                      [+]${NC}"
+  echo -e "${BLUE}[+]                                                         [+]${NC}"
   echo -e "${BLUE}[+] =========================================== [+]${NC}"
   echo -e ""
   echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyle,"
@@ -25,7 +27,6 @@ display_welcome() {echo -e "${BLUE}[+] =========================================
   sleep 4
   clear
 }
-
 #Update and install jq
 install_jq() {
   echo -e "                                                       "
